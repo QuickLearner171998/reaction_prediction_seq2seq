@@ -48,7 +48,7 @@ tf.flags.DEFINE_string("input_pipeline", None,
                        """Defines how input data should be loaded.
                        A YAML string.""")
 
-tf.flags.DEFINE_string("model_dir", r"D:\MY Projects and courses\reaction_prediction_seq2seq\model_working_directory\jul_5_2017_1", "directory to load model from")
+tf.flags.DEFINE_string("model_dir", None, "directory to load model from")
 tf.flags.DEFINE_string("checkpoint_path", None,
                        """Full path to the checkpoint to be loaded. If None,
                        the latest checkpoint in the model dir is used.""")
