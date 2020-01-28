@@ -4,8 +4,6 @@ https://github.com/pandegroup/reaction_prediction_seq2seq
 # Code for "Retrosynthetic reaction prediction using neural sequence-to-sequence models" paper
 http://pubs.acs.org/doi/full/10.1021/acscentsci.7b00303
 
-
-
 ## Model training
 The data has already been preprocessed for training the seq2seq model
 
@@ -23,7 +21,7 @@ The prediction can be evaluated using reaction_evaluation.ipynb in the evaluatio
 ## Visualise Molecules
 
 Refer post processing cell of run_command notebook.
-The prediction file contains SMILES texts. So we do some post processing to visualise the molecules using rdkit.
+The prediction file contains SMILES texts. New text files are created that can be directly used for drawing the structure. Molecules can be easily visualised using rdkit library in Python.
 
 ## TO-DO
 - [x] Understand dataset and conversion from smiles
