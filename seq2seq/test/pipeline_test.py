@@ -41,7 +41,10 @@ BIN_FOLDER = os.path.abspath(
 def _clear_flags():
   """Resets Tensorflow's FLAG values"""
   #pylint: disable=W0212
-  tf.app.flags.FLAGS = tf.app.flags._FlagValues()
+  #tf.app.flags.FLAGS = tf.app.flags._FlagValues()
+  #attr_names = []
+  for flag_key in dir(tf.app.flags.FLAGS):
+    delattr(tf.app.flags.FLAGS, flag_key)
   tf.app.flags._global_parser = argparse.ArgumentParser()
 
 
