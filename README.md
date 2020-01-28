@@ -18,7 +18,7 @@ For usage of each script see original repo.
 ## Model evaluation
 The prediction can be evaluated using reaction_evaluation.ipynb in the evaluation folder. For the no beam search predictions, need to change pred_path to the relevant prediction file. For the beam search predictions, need to change beam_width and beam_path to the relevant beam widths used for each particular .npz beam prediction file. 
 
-## Visualise Molecules
+## Visualize Molecules
 
 Refer post processing cell of run_command notebook.
 The prediction file contains SMILES texts. New text files are created that can be directly used for drawing the structure. Molecules can be easily visualised using rdkit library in Python.
