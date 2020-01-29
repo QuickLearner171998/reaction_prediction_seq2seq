@@ -16,7 +16,7 @@ Also, a pretrained model checkpoint can be found at: http://deepchem.io.s3-websi
 Model inference can be performed by running the Inferencing Cell in run_command notebook.
 For usage of each script see original repo.
 
-Note- If you use the pretrained model for inferencing then make sure you are working on TF 1.0.1 GPU. Else it throws Key not found error.
+### Note- If you use the pretrained model for inferencing then make sure you are working on TF 1.0.1 GPU. Else it throws Key not found error.
 
 ## Model evaluation
 The prediction can be evaluated using reaction_evaluation.ipynb in the evaluation folder. For the no beam search predictions, need to change pred_path to the relevant prediction file. For the beam search predictions, need to change beam_width and beam_path to the relevant beam widths used for each particular .npz beam prediction file. 
