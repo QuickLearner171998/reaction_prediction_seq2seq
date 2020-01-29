@@ -13,7 +13,6 @@ python -m bin.infer \
     - class: DumpBeams
       params:
         file: ${PREDICTION_PATH}/beams_44000steps_50_test.npz" \
-  --model_dir $MODEL_DIR \
   --model_params "
     inference.beam_search.beam_width: 50" \
   --input_pipeline "
