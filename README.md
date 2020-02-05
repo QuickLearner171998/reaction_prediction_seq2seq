@@ -29,9 +29,3 @@ The prediction can be evaluated using reaction_evaluation.ipynb in the evaluatio
 Refer post processing cell of run_command notebook.
 The prediction file contains SMILES texts. New text files are created that can be directly used for drawing the structure. Molecules can be easily visualised using rdkit library in Python.
 
-## TO-DO
-- [x] Understand dataset and conversion from smiles
-- [ ] Understand seq2seq model working
-- [x] Perform Inference on all scripts
-- [x] Do Evaluation
-
