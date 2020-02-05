@@ -32,6 +32,6 @@ The prediction file contains SMILES texts. New text files are created that can b
 ## TO-DO
 - [x] Understand dataset and conversion from smiles
 - [ ] Understand seq2seq model working
-- [ ] Perform Inference on all scripts
-- [ ] Do Evaluation
+- [x] Perform Inference on all scripts
+- [x] Do Evaluation
 
